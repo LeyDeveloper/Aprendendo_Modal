@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.788);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: .5px dotted black;
+}
+
+.senha{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: .5px dotted black;
+}
+
+.buttons{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enviar{
+    width: 100px;
+    border-radius: 8px;
+    border: .5px solid black; 
+    padding: 12px;
+}
+
+.enviar:hover{
+    background-color: black;
+    color: white;
+}
+
+.cadastrar{
+    width: 100px;
+    border-radius: 8px;
+    border: .5px solid black; 
+    padding: 12px;
+}
+
+.cadastrar:hover{
+    background-color: black;
+    color: white;
+}
+
+.bg-modal{
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0 ,0, .5);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.bg-on{
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.modal{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.788);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.usuario{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: .5px dotted black;
+}
+
+.senha2{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: .5px dotted black;
+}
+
+.email{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: .5px dotted black;
+}
+
+.enviar2{
+    width: 100px;
+    border-radius: 8px;
+    border: .5px solid black; 
+    padding: 12px;
+}
+
+.enviar2:hover{
+    background-color: black;
+    color: white;
+}
+
+.cancelar{
+    width: 100px;
+    border-radius: 8px;
+    border: .5px solid black; 
+    padding: 12px;
+}
+
+.cancelar:hover{
+    background-color: black;
+    color: white;
+}
